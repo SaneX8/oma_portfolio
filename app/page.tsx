@@ -79,19 +79,6 @@ export default function Portfolio() {
           </h1>
           <p className="text-lg sm:text-xl">Front-end Developer</p>
         </div>
-        <Button
-          onClick={() => setIsDarkMode(!isDarkMode)}
-          className="text-gray-900 bg-white border-gray-300 hover:bg-gray-100 dark:text-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          aria-label={
-            isDarkMode ? "Switch to light mode" : "Switch to dark mode"
-          }
-        >
-          {isDarkMode ? (
-            <Sun className="h-5 w-5" />
-          ) : (
-            <Moon className="h-5 w-5" />
-          )}
-        </Button>
       </header>
 
       <nav className="mb-8 sticky top-0 bg-gray-100 dark:bg-gray-900 py-4 z-10">
