@@ -70,7 +70,8 @@ export default function Portfolio() {
 
   return (
     <div
-      className={`min-h-screen bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-mono p-4 sm:p-8 transition-colors duration-200`}
+      className={`max-w-6xl  w-full mx-auto justify-start items-start flex flex-col
+min-h-screen  text-gray-900  dark:text-gray-100 font-mono p-4 sm:p-8 transition-colors duration-200`}
     >
       <header className="mb-8 sm:mb-12 flex justify-between items-center">
         <div>

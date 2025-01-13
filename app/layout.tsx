@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Santeri Pikkarainen - Portfolio",
   description:
     "Hi, I'm Santeri Pikkarainen, a recent IT graduate specializing in Frontend Development. I'm passionate about creating intuitive and user-friendly digital experiences. While I don't have any projects to showcase just yet, exciting things are coming soon—stay tuned!",
 };
@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="bg-gray-100 dark:bg-gray-900">{children}</div>
       </body>
     </html>
   );
