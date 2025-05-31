@@ -4,6 +4,7 @@ import { useRef, useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+
 import {
   Github,
   Linkedin,
@@ -13,6 +14,7 @@ import {
   Sun,
   Moon,
 } from "lucide-react";
+import ChatUI from "@/components/ui/ChatUI";
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +30,6 @@ export default function Portfolio() {
     "React",
     "Next.js",
     "Node.js",
-    "Git",
     "SQL",
     "Power Bi",
     "Flutter",
@@ -82,7 +83,7 @@ min-h-screen  text-gray-900  dark:text-gray-100 font-mono p-4 sm:p-8 transition-
         </div>
       </header>
 
-      <nav className="mb-8 sticky top-0 bg-gray-100 dark:bg-gray-900 py-4 z-10">
+      <nav className="mb-8 sticky top-0 bg-gray-100 dark:bg-gray-900 py-4 z-10 flex w-full items-center justify-center">
         <div className="flex flex-wrap items-center">
           <Button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -135,6 +136,8 @@ min-h-screen  text-gray-900  dark:text-gray-100 font-mono p-4 sm:p-8 transition-
           </Button>
         </div>
       </nav>
+
+      <ChatUI />
 
       <main className="space-y-8 sm:space-y-12">
         <section ref={aboutRef} id="about">
