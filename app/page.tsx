@@ -39,10 +39,10 @@ export default function Portfolio() {
   ];
   const projects = [
     {
-      name: "Project A",
+      name: "EAN Barcode Generator",
       description:
-        "I currently don't have any projects to showcase, but stay tuned! Exciting things are on the way. ",
-      link: "#",
+        "A production-ready web tool for generating printable EAN barcode sheets from CSV or manual input. Built with Next.js, Python (ReportLab), and deployed on Vercel + Render.",
+      link: "https://ean.santeripikkarainen.com/",
     },
     //{ name: "Project B", description: "...", link: "#" },
     // { name: "Project C", description: "...", link: "#" },
