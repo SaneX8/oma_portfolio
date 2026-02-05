@@ -41,7 +41,7 @@ export default function Portfolio() {
     {
       name: "Project A",
       description:
-        "I currently don't have any projects to showcase, but stay tuned! Exciting things are on the way.",
+        "I currently don't have any projects to showcase, but stay tuned! Exciting things are on the way. ",
       link: "#",
     },
     //{ name: "Project B", description: "...", link: "#" },
