@@ -147,11 +147,9 @@ min-h-screen  text-gray-900  dark:text-gray-100 font-mono p-4 sm:p-8 transition-
                 <Terminal className="mr-2" /> About Me
               </h2>
               <p className="mb-4 text-sm sm:text-base">
-                Hi, I'm Santeri Pikkarainen, a recent IT graduate specializing
-                in Frontend Development. I'm passionate about creating intuitive
-                and user-friendly digital experiences. While I don't have any
-                projects to showcase just yet, exciting things are coming
-                soon—stay tuned!
+                Frontend-focused IT graduate building clean, intuitive, and
+                reliable web applications. I turn ideas into fast, user-centered
+                digital experiences.
               </p>
             </CardContent>
           </Card>
