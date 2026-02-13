@@ -21,7 +21,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Santeri Pikkarainen - Portfolio",
   description:
-    "Hi, I'm Santeri Pikkarainen, a recent IT graduate specializing in Frontend Development. I'm passionate about creating intuitive and user-friendly digital experiences. While I don't have any projects to showcase just yet, exciting things are coming soon—stay tuned!",
+    "Frontend-focused IT graduate building clean, intuitive, and reliable web applications. I turn ideas into fast, user-centered digital experiences.",
 };
 
 export default function RootLayout({
